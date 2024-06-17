@@ -1,0 +1,18 @@
+Explicação da Codificação
+  %7B é a codificação para {
+  %22 é a codificação para "
+  %3A é a codificação para :
+  %2C é a codificação para ,
+  %7D é a codificação para }
+  %20 é a codificação para ' ' (espaço). Exemplo: Eduardo%20José
+
+Testando no Navegador
+Abra seu navegador.
+Digite ou cole a URL http://localhost:3000/oracle/query-dynamic/%7B%22sexo%22%3A%22M%22%2C%22nome%22%3A%22John%22%7D na barra de endereços.
+Pressione Enter para enviar a requisição.
+
+
+
+http://localhost:3000/oracle/repository2/produtos-id/{":psn_ativo":"'N'"}
+http://localhost:3000/oracle/repository2/uf-all/{":p":"s"}
+http://localhost:3000/oracle/repository2/usuario-id/{":pid":"4"}

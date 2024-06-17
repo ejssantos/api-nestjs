@@ -1,0 +1,31 @@
+--  Script de inserts em UF
+begin
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Acre', 'AC', 'Rio Branco');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Alagoas', 'AL', 'Maceió');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Amapá', 'AP', 'Macapá');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Amazonas', 'AM', 'Manaus');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Bahia', 'BA', 'Salvador');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Ceará', 'CE', 'Fortaleza');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Espírito Santo', 'ES', 'Vitória');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Goiás', 'GO', 'Goiânia');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Maranhão', 'MA', 'São Luís');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Mato Grosso', 'MT', 'Cuiabá');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Mato Grosso do Sul', 'MS', 'Campo Grande');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Minas Gerais', 'MG', 'Belo Horizonte');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Pará', 'PA', 'Belém');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Paraíba', 'PB', 'João Pessoa');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Paraná', 'PR', 'Curitiba');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Pernambuco', 'PE', 'Recife');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Piauí', 'PI', 'Teresina');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Rio de Janeiro', 'RJ', 'Rio de Janeiro');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Rio Grande do Norte', 'RN', 'Natal');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Rio Grande do Sul', 'RS', 'Porto Alegre');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Rondônia', 'RO', 'Porto Velho');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Roraima', 'RR', 'Boa Vista');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Santa Catarina', 'SC', 'Florianópolis');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('São Paulo', 'SP', 'São Paulo');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Sergipe', 'SE', 'Aracaju');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Tocantins', 'TO', 'Palmas');
+  insert into dev.uf(ds_uf, cd_uf, ds_capital) values('Distrito Federal', 'DF', 'Brasília');
+  commit;
+end;
