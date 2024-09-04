@@ -97,7 +97,6 @@ export class OracleService {
     }
   }
 
-  
   async getSQL3(sql: string): Promise<string> {
     try {
       const dataSql = await this.executeQuery(sql);
